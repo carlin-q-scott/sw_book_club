@@ -1,0 +1,11 @@
+{
+	"author": "Shiftwise",
+	"name": "jsonify",
+	"version": "0.1.1",
+	"description": "",
+	"main": "jsonify",
+	"dependencies": {},
+	"engines": {
+		"node": "*"
+	}
+}
