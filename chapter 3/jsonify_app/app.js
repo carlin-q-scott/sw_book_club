@@ -6,4 +6,5 @@ var jsonObjectAsString = jsonify.toJson(jsonObject);
 console.log(jsonObjectAsString);
 
 var jsonObjectFromString = jsonify.fromJson(jsonObjectAsString);
-console.log(jsonObjectFromString);
+console.log(jsonObjectFromString.Name);
+console.log(jsonObjectFromString.Age);
