@@ -6,3 +6,7 @@ Useful Material:
 
 https://gist.github.com/mmalecki/1257394
 http://howtonode.org/understanding-process-next-tick
+http://becausejavascript.com/node-js-process-nexttick-vs-setimmediate/
+
+setTimeout vs setInterval vs setImmediate vs process.nextTick
+
