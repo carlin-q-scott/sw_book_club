@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 var immediate = function() {
 	console.log("IMMEDIATE")
 };
@@ -10,7 +12,12 @@ var timer = function() {
 	console.log("TIMER");
 } 
 
-setTimeout(timer, 5);
+
+fs.stat('immediate.js', function(err, stats) {
+	if (stats) { console.log("immediate.js exists!"); }
+});
+
+setTimeout(timer, 0);
 setImmediate(immediate);
 process.nextTick(tick);
 setImmediate(immediate);
